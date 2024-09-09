@@ -1,0 +1,47 @@
+#$ -S /bin/bash
+#$ -cwd
+#$ -V
+#$ -o progress.out 
+#$ -j y
+#$ -N HEWL
+#$ -l h_data=1500M,gpu=1
+#$ -pe smp 8
+#$ -R y
+#!#$ -l h=(n068)
+
+#python=/opt/openmm/7.7.0/bin/python
+
+echo "----------------------------------"
+
+
+
+init="step3_charmm2omm"
+istep="step4_equilibration"
+
+echo "Running Equilibration..."
+
+$python -u openmm_run.py -i ${istep}.inp -t toppar.str -p ${init}.psf -c ${init}.crd -b ${init}.str -orst ${istep}.rst -odcd ${istep}.dcd > ${istep}.out
+
+echo "Running Production..."
+
+cnt=1
+cntmax=2
+input=step5_production
+
+while [ ${cnt} -le ${cntmax} ]
+do
+    pcnt=$((cnt-1))
+    istep=step5_${cnt}
+    pstep=step5_${pcnt}
+
+    if [ ${cnt} -eq 1 ] 
+       then pstep=step4_equilibration
+    fi
+    $python -u openmm_run.py -i ${input}.inp -t toppar.str -p ${init}.psf -c ${init}.crd -irst ${pstep}.rst -orst ${istep}.rst -odcd ${istep}.dcd > ${istep}.out
+    cnt=$((cnt+1))
+
+done
+
+
+
+
