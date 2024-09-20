@@ -7,7 +7,7 @@ all_crds/
 
     Description: Contains all .crd files for ion-model compounds needed by CHARMM.
     How to Use:
-        To run simulations with a different force field, replace the foppar file and adjust toppar.str accordingly.
+        To run simulations with a different force field, provide the toppar file and adjust toppar.str accordingly.
         Execute simulations by running ./99_run_all_crds.sh.
         The script supports parallel execution:
             You can modify the number of processors used for parallel execution within the script.
