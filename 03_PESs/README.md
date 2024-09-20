@@ -2,6 +2,7 @@ Potential Energy Surface (PES) Calculations - Input Files
 
 This directory contains input files for calculating potential energy surfaces (PESs) using CHARMM, alongside cost function computations against quantum mechanical (QM) data. These files support the accompanying manuscript.
 Folder Structure:
+
 all_crds/
 
     Description: Contains all .crd files for ion-model compounds needed by CHARMM.
