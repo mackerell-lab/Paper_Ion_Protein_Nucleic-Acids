@@ -1,32 +1,42 @@
-This folder contains input files to calculate potential energy surfaces (PESs) using CHARMM and the corresponding cost functions against quantum mechanical (QM) data in support of the manuscript.
+Potential Energy Surface (PES) Calculations - Input Files
+
+This directory contains input files for calculating potential energy surfaces (PESs) using CHARMM, alongside cost function computations against quantum mechanical (QM) data. These files support the accompanying manuscript.
 Folder Structure:
+all_crds/
 
-    all_crds:
-        Contains all ion-model compound .crd files required by CHARMM.
-        To run with a different force field, provide the appropriate foppar file and modify toppar.str accordingly.
-        Run ./99_run_all_crds.sh to execute simulations. The script supports parallel execution.
-        In the bash script, you can adjust the number of processors for the parallel run and set the folder to save MM PES results.
+    Description: Contains all .crd files for ion-model compounds needed by CHARMM.
+    How to Use:
+        To run simulations with a different force field, replace the foppar file and adjust toppar.str accordingly.
+        Execute simulations by running ./99_run_all_crds.sh.
+        The script supports parallel execution:
+            You can modify the number of processors used for parallel execution within the script.
+            Adjust the target folder where molecular mechanics (MM) PES results are saved.
 
-    pes_datas:
-        Contains all PES data from both the original and new parameters, as well as QM data.
-        Use read_data.py to read and combine these files into a single output file, which will be saved as Data_Report.
+pes_datas/
 
-    Data_Report:
-        Contains the combined data from tmp_data along with analysis scripts.
-        01_analysis_data.py calculates cost functions and generates a report. Output files include:
-            Output_PES_cost_functions.csv
-            Output_data_summary_report.txt
-        02_make_pes_figure.py generates figures for all combinations and saves them in the ./figures directory.
-            The make_pdf.py script in the figures directory combines all figures into a single PDF, with one figure per page.
+    Description: Contains all PES data from both the original and updated parameters, along with QM reference data.
+    How to Use:
+        Use the read_data.py script to combine these datasets into a single output file, which will be saved as Data_Report.
 
+Data_Report/
+
+    Description: Contains the combined data from tmp_data, as well as analysis scripts for generating reports and figures.
+    Included Scripts:
+        01_analysis_data.py:
+            Calculates cost functions and generates a summary report.
+            Output files:
+                Output_PES_cost_functions.csv
+                Output_data_summary_report.txt
+        02_make_pes_figure.py:
+            Generates figures for all ion-model compound combinations and saves them in the ./figures directory.
+            Additionally, use the make_pdf.py script (in the figures/ directory) to combine all figures into a single PDF, with one figure per page.
         03_view_cost_function.py:
-            Visualizes the cost function for each ion and model compound.
+            Visualizes the cost functions for each ion and model compound.
 
-   PES_Nan_et_al_QM_MM.pdf 
-        PESs sved as pdf.
+PES_Nan_et_al_QM_MM.pdf
 
-   zmatrices.csv
-        Z-matricies for all systems.
-       
+    Description: Contains PES plots saved as a PDF document.
 
+zmatrices.csv
 
+    Description: Provides Z-matrices for all systems involved in the PES calculations.
