@@ -19,7 +19,14 @@ Folder Structure:
         02_make_pes_figure.py generates figures for all combinations and saves them in the ./figures directory.
             The make_pdf.py script in the figures directory combines all figures into a single PDF, with one figure per page.
 
-    03_view_cost_function.py:
-        Visualizes the cost function for each ion and model compound.
+        03_view_cost_function.py:
+            Visualizes the cost function for each ion and model compound.
+
+   PES_Nan_et_al_QM_MM.pdf 
+        PESs sved as pdf.
+
+   zmatrices.csv
+        Z-matricies for all systems.
+       
 
 
