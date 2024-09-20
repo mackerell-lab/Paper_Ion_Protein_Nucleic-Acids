@@ -1,0 +1,12 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  C1  ACET    1       0.332  -8.023   0.000  1.00  0.00      ACET
+ATOM      2  H1  ACET    1       1.368  -8.399   0.000  1.00  0.00      ACET
+ATOM      3  H2  ACET    1      -0.201  -8.404   0.888  1.00  0.00      ACET
+ATOM      4  H3  ACET    1      -0.201  -8.404  -0.888  1.00  0.00      ACET
+ATOM      5  C2  ACET    1       0.290  -6.467   0.000  1.00  0.00      ACET
+ATOM      6  O1  ACET    1      -0.877  -5.961   0.000  1.00  0.00      ACET
+ATOM      7  O2  ACET    1       1.415  -5.872   0.000  1.00  0.00      ACET
+ATOM      8  CES CES     1      -0.128   2.924   0.000  1.00  0.00      CES
+TER      10      CES     1
+END

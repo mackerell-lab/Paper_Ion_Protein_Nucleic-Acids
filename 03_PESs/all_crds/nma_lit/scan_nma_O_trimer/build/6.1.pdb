@@ -1,0 +1,29 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  CL  NMA     1       5.764   1.047   0.000  1.00  0.00      NMA
+ATOM      2  HL1 NMA     1       5.011   1.842   0.000  1.00  0.00      NMA
+ATOM      3  HL2 NMA     1       6.400   1.150   0.891  1.00  0.00      NMA
+ATOM      4  HL3 NMA     1       6.400   1.150  -0.891  1.00  0.00      NMA
+ATOM      5  C   NMA     1       5.076  -0.297   0.000  1.00  0.00      NMA
+ATOM      6  O   NMA     1       3.823  -0.410   0.000  1.00  0.00      NMA
+ATOM      7  N   NMA     1       5.854  -1.386   0.000  1.00  0.00      NMA
+ATOM      8  H   NMA     1       6.858  -1.256   0.000  1.00  0.00      NMA
+ATOM      9  CC  NMA     1       5.303  -2.741   0.000  1.00  0.00      NMA
+ATOM     10  HC1 NMA     1       4.687  -2.899   0.895  1.00  0.00      NMA
+ATOM     11  HC2 NMA     1       4.687  -2.899  -0.895  1.00  0.00      NMA
+ATOM     12  HC3 NMA     1       6.135  -3.452   0.000  1.00  0.00      NMA
+ATOM     13  LIT LIT     1       2.046  -0.220   0.000  1.00  0.00      LIT
+ATOM     14  O   NMA     2      -4.019   0.432   0.000  1.00  0.00      NMA
+ATOM     15  C   NMA     2      -5.272   0.318   0.000  1.00  0.00      NMA
+ATOM     16  CL  NMA     2      -5.960  -1.026   0.000  1.00  0.00      NMA
+ATOM     17  HL1 NMA     2      -5.207  -1.820   0.000  1.00  0.00      NMA
+ATOM     18  HL2 NMA     2      -6.596  -1.128  -0.891  1.00  0.00      NMA
+ATOM     19  HL3 NMA     2      -6.596  -1.128   0.891  1.00  0.00      NMA
+ATOM     20  N   NMA     2      -6.050   1.408   0.000  1.00  0.00      NMA
+ATOM     21  H   NMA     2      -7.055   1.278   0.000  1.00  0.00      NMA
+ATOM     22  CC  NMA     2      -5.499   2.762   0.000  1.00  0.00      NMA
+ATOM     23  HC1 NMA     2      -4.883   2.920  -0.895  1.00  0.00      NMA
+ATOM     24  HC2 NMA     2      -4.883   2.920   0.895  1.00  0.00      NMA
+ATOM     25  HC3 NMA     2      -6.332   3.473   0.000  1.00  0.00      NMA
+TER      27      NMA     2
+END

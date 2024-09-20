@@ -1,0 +1,25 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  CG  IMIM    1      -2.344  -4.474   0.000  1.00  0.00      IMIM
+ATOM      2  HG  IMIM    1      -3.116  -5.236   0.000  1.00  0.00      IMIM
+ATOM      3  CD2 IMIM    1      -2.422  -3.092   0.000  1.00  0.00      IMIM
+ATOM      4  HD2 IMIM    1      -3.284  -2.433   0.000  1.00  0.00      IMIM
+ATOM      5  ND1 IMIM    1      -0.998  -4.779   0.000  1.00  0.00      IMIM
+ATOM      6  HD1 IMIM    1      -0.602  -5.713   0.000  1.00  0.00      IMIM
+ATOM      7  NE2 IMIM    1      -1.132  -2.616   0.000  1.00  0.00      IMIM
+ATOM      8  HE2 IMIM    1      -0.806  -1.601   0.000  1.00  0.00      IMIM
+ATOM      9  CE1 IMIM    1      -0.271  -3.640   0.000  1.00  0.00      IMIM
+ATOM     10  HE1 IMIM    1       0.810  -3.561   0.000  1.00  0.00      IMIM
+ATOM     11  CLA CLA     1       0.040   0.091   0.000  1.00  0.00      CLA
+ATOM     12  ND1 IMIM    2       1.112   2.569   0.000  1.00  0.00      IMIM
+ATOM     13  HD1 IMIM    2       0.786   1.555   0.000  1.00  0.00      IMIM
+ATOM     14  CE1 IMIM    2       0.251   3.593   0.000  1.00  0.00      IMIM
+ATOM     15  HE1 IMIM    2      -0.830   3.515   0.000  1.00  0.00      IMIM
+ATOM     16  NE2 IMIM    2       0.978   4.732   0.000  1.00  0.00      IMIM
+ATOM     17  HE2 IMIM    2       0.582   5.667   0.000  1.00  0.00      IMIM
+ATOM     18  CD2 IMIM    2       2.324   4.427   0.000  1.00  0.00      IMIM
+ATOM     19  HD2 IMIM    2       3.095   5.190   0.000  1.00  0.00      IMIM
+ATOM     20  CG  IMIM    2       2.402   3.045   0.000  1.00  0.00      IMIM
+ATOM     21  HG  IMIM    2       3.264   2.387   0.000  1.00  0.00      IMIM
+TER      23      IMIM     2
+END

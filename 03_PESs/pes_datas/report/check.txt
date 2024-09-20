@@ -1,0 +1,5 @@
+ urab      CS    urab_O_trimer          0       0.0000      0.0000
+ urab      CS    urab_O_tetramer        0       0.0000      0.0000
+ urab      CS    urab_O2_trimer         0       0.0000      0.0000
+ urab      CS    urab_O2_tetramer       0       0.0000      0.0000
+

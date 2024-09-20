@@ -1,0 +1,24 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  CL  ACEM    1       0.923  -3.669   0.000  1.00  0.00      ACEM
+ATOM      2  C   ACEM    1      -0.332  -2.838   0.000  1.00  0.00      ACEM
+ATOM      3  N   ACEM    1      -1.498  -3.483   0.000  1.00  0.00      ACEM
+ATOM      4  HC  ACEM    1      -2.373  -2.969   0.000  1.00  0.00      ACEM
+ATOM      5  HT  ACEM    1      -1.539  -4.497   0.000  1.00  0.00      ACEM
+ATOM      6  O   ACEM    1      -0.294  -1.562   0.000  1.00  0.00      ACEM
+ATOM      7  HL1 ACEM    1       1.803  -3.017   0.000  1.00  0.00      ACEM
+ATOM      8  HL2 ACEM    1       0.949  -4.319   0.888  1.00  0.00      ACEM
+ATOM      9  HL3 ACEM    1       0.949  -4.319  -0.888  1.00  0.00      ACEM
+ATOM     10  SOD SOD     1      -0.005  -0.027   1.669  1.00  0.00      SOD
+ATOM     11  SOD SOD     2      -0.005  -0.027  -1.669  1.00  0.00      SOD
+ATOM     12  O   ACEM    2       0.298   1.583   0.000  1.00  0.00      ACEM
+ATOM     13  C   ACEM    2       0.336   2.859   0.000  1.00  0.00      ACEM
+ATOM     14  N   ACEM    2       1.502   3.505   0.000  1.00  0.00      ACEM
+ATOM     15  HC  ACEM    2       2.377   2.990   0.000  1.00  0.00      ACEM
+ATOM     16  HT  ACEM    2       1.543   4.518   0.000  1.00  0.00      ACEM
+ATOM     17  CL  ACEM    2      -0.919   3.690   0.000  1.00  0.00      ACEM
+ATOM     18  HL1 ACEM    2      -1.799   3.038   0.000  1.00  0.00      ACEM
+ATOM     19  HL2 ACEM    2      -0.945   4.340  -0.888  1.00  0.00      ACEM
+ATOM     20  HL3 ACEM    2      -0.945   4.340   0.888  1.00  0.00      ACEM
+TER      22      ACEM     2
+END

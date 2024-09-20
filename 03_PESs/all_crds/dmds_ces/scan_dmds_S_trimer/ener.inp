@@ -1,0 +1,204 @@
+* ion interaction energy surface
+*
+
+iofo exte
+
+stream ../../../toppar.str
+
+
+set ion  CES 
+set resi DMDS
+
+open write unit 99 card name @ion_@resi_drude.surf
+
+set init 1.4
+
+! loop to generate coordinates
+set dx 0.1
+set i 1.0
+set totdx 0
+label loop1
+
+    read sequ @resi 2
+    generate @resi first none last none setup warn drude dmass 0.4 hype hord 4 khyp 40000 rhyp 0.2
+
+    read sequ @ion 1
+    generate @ion first none last none setup warn noangle nodihedral drude dmass 0.4 hype hord 4 khyp 40000 rhyp 0.2
+
+    calc totdx = @dx * @i       ! how far we've traveled
+    calc xnew = @init + @totdx
+
+    ! save coords for later use in Drude
+    open read unit 10 card name ./init_crds/@xnew.crd
+    read coor unit 10 card
+    close unit 10
+
+    coor sdrude
+
+    coor shake
+
+    nbonds atom vatom switch vswitch cutnb 999.0 ctonnb 997.0 ctofnb 998.0
+
+    cons harm force 100000. mass sele .not. type D* end
+    mini sd   nstep 1000
+    cons harm force 0. mass sele all end
+    cons harm force 100000. mass sele .not. type D* end
+    mini abnr nstep 2000 tolgrd 0.0001
+    cons harm force 0. mass sele all end
+
+    ener
+    set ecomplex ?ENER
+
+    coor init sele all end
+    open read unit 10 card name ./init_crds/@xnew.crd
+    read coor unit 10 card
+    close unit 10
+
+    coor sdrude
+    coor shake
+
+    dele atom sele ((segid @ion ) .or. (segid @resi .and. resid 1)) end
+    cons harm force 100000. mass sele .not. type D* end
+    mini sd   nstep 1000
+    cons harm force 0. mass sele all end
+    cons harm force 100000. mass sele .not. type D* end
+    mini abnr nstep 2000 tolgrd 0.0001
+    cons harm force 0. mass sele all end
+
+    ener
+    set emono1 ?ENER
+
+    dele atom sele all end
+    
+    read sequ @resi 2
+    generate @resi first none last none setup warn drude dmass 0.4 hype hord 4 khyp 40000 rhyp 0.2
+
+    read sequ @ion 1
+    generate @ion first none last none setup warn noangle nodihedral drude dmass 0.4 hype hord 4 khyp 40000 rhyp 0.2
+
+    open read unit 10 card name ./init_crds/@xnew.crd
+    read coor unit 10 card
+    close unit 10
+
+    coor sdrude
+    coor shake
+
+    dele atom sele  (segid @resi .and. resid 2) end
+    cons harm force 100000. mass sele .not. type D* end
+    mini sd   nstep 1000
+    cons harm force 0. mass sele all end
+    cons harm force 100000. mass sele .not. type D* end
+    mini abnr nstep 2000 tolgrd 0.0001
+    cons harm force 0. mass sele all end
+
+    ener
+    set emono2 ?ENER
+   
+
+    calc ie = @ecomplex - @emono1 - @emono2
+
+    write title unit 99
+    * @xnew @ie 
+    *
+
+    dele atom sele all end
+
+    incr i by 1.0
+if @xnew .lt. 6.0 goto loop1
+
+echo @totdx
+
+set dx 0.1
+set i 1
+set totdx 0
+label loop2
+
+    read sequ @resi 2
+    generate @resi first none last none setup warn drude dmass 0.4 hype hord 4 khyp 40000 rhyp 0.2
+
+    read sequ @ion 1
+    generate @ion first none last none setup warn noangle nodihedral drude dmass 0.4 hype hord 4 khyp 40000 rhyp 0.2
+
+    calc totdx = @totdx + @dx
+    calc xnew = 6.0 + @totdx
+
+    ! save coords for later use in Drude
+    open read unit 10 card name ./init_crds/@xnew.crd
+    read coor unit 10 card
+    close unit 10
+
+    coor sdrude
+    coor shake
+
+    nbonds atom vatom switch vswitch cutnb 999.0 ctonnb 997.0 ctofnb 998.0
+
+    cons harm force 100000. mass sele .not. type D* end
+    mini sd   nstep 1000
+    cons harm force 0. mass sele all end
+    cons harm force 100000. mass sele .not. type D* end
+    mini abnr nstep 2000 tolgrd 0.0001
+    cons harm force 0. mass sele all end
+
+    ener
+    set ecomplex ?ENER
+
+    coor init sele all end
+    open read unit 10 card name ./init_crds/@xnew.crd
+    read coor unit 10 card
+    close unit 10
+
+    coor sdrude
+    coor shake
+
+    dele atom sele ((segid @ion ) .or. (segid @resi .and. resid 1)) end
+    cons harm force 100000. mass sele .not. type D* end
+    mini sd   nstep 1000
+    cons harm force 0. mass sele all end
+    cons harm force 100000. mass sele .not. type D* end
+    mini abnr nstep 2000 tolgrd 0.0001
+    cons harm force 0. mass sele all end
+
+    ener
+    set emono1 ?ENER
+
+    dele atom sele all end
+
+    read sequ @resi 2
+    generate @resi first none last none setup warn drude dmass 0.4 hype hord 4 khyp 40000 rhyp 0.2
+
+    read sequ @ion 1
+    generate @ion first none last none setup warn noangle nodihedral drude dmass 0.4 hype hord 4 khyp 40000 rhyp 0.2
+
+    open read unit 10 card name ./init_crds/@xnew.crd
+    read coor unit 10 card
+    close unit 10
+
+    coor sdrude
+    coor shake
+
+    dele atom sele  (segid @resi .and. resid 2) end
+    cons harm force 100000. mass sele .not. type D* end
+    mini sd   nstep 1000
+    cons harm force 0. mass sele all end
+    cons harm force 100000. mass sele .not. type D* end
+    mini abnr nstep 2000 tolgrd 0.0001
+    cons harm force 0. mass sele all end
+
+    ener
+    set emono2 ?ENER
+
+    calc ie = @ecomplex - @emono1 - @emono2
+
+    write title unit 99
+    * @xnew @ie 
+    *
+
+    dele atom sele all end
+
+    incr i by 1
+if @xnew .lt. 10 goto loop2
+
+close unit 99
+
+stop
+

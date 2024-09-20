@@ -1,0 +1,5 @@
+
+set toppar ../drude_toppar_2023
+stream @toppar/toppar_drude_main_protein_2023a.str
+stream @toppar/toppar_drude_model_2023a.str
+

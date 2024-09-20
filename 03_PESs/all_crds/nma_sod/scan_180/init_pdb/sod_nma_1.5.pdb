@@ -1,0 +1,17 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  CL  NMA     1       1.770   1.274   0.000  1.00  0.00      NMA
+ATOM      2  HL1 NMA     1       1.303   2.266   0.000  1.00  0.00      NMA
+ATOM      3  HL2 NMA     1       2.407   1.170   0.893  1.00  0.00      NMA
+ATOM      4  HL3 NMA     1       2.407   1.170  -0.893  1.00  0.00      NMA
+ATOM      5  C   NMA     1       0.672   0.223   0.000  1.00  0.00      NMA
+ATOM      6  O   NMA     1      -0.534   0.501   0.000  1.00  0.00      NMA
+ATOM      7  N   NMA     1       1.103  -1.077   0.000  1.00  0.00      NMA
+ATOM      8  H   NMA     1       2.095  -1.271   0.000  1.00  0.00      NMA
+ATOM      9  CC  NMA     1       0.144  -2.175   0.000  1.00  0.00      NMA
+ATOM     10  HC1 NMA     1      -0.500  -2.127   0.891  1.00  0.00      NMA
+ATOM     11  HC2 NMA     1      -0.500  -2.127  -0.891  1.00  0.00      NMA
+ATOM     12  HC3 NMA     1       0.697  -3.124   0.000  1.00  0.00      NMA
+ATOM     13  SOD SOD     1      -1.996   0.838   0.000  1.00  0.00      SOD
+TER      15      SOD     1
+END

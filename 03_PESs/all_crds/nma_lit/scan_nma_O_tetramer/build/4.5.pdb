@@ -1,0 +1,30 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  CL  NMA     1       4.109   1.108   0.000  1.00  0.00      NMA
+ATOM      2  HL1 NMA     1       3.355   1.901   0.000  1.00  0.00      NMA
+ATOM      3  HL2 NMA     1       4.749   1.216   0.889  1.00  0.00      NMA
+ATOM      4  HL3 NMA     1       4.749   1.216  -0.889  1.00  0.00      NMA
+ATOM      5  C   NMA     1       3.439  -0.239   0.000  1.00  0.00      NMA
+ATOM      6  O   NMA     1       2.147  -0.346   0.000  1.00  0.00      NMA
+ATOM      7  N   NMA     1       4.187  -1.326   0.000  1.00  0.00      NMA
+ATOM      8  H   NMA     1       5.196  -1.194   0.000  1.00  0.00      NMA
+ATOM      9  CC  NMA     1       3.657  -2.697   0.000  1.00  0.00      NMA
+ATOM     10  HC1 NMA     1       3.051  -2.865   0.899  1.00  0.00      NMA
+ATOM     11  HC2 NMA     1       3.051  -2.865  -0.899  1.00  0.00      NMA
+ATOM     12  HC3 NMA     1       4.505  -3.389   0.000  1.00  0.00      NMA
+ATOM     13  LIT LIT     1       0.773  -0.125   1.272  1.00  0.00      LIT
+ATOM     14  LIT LIT     2       0.773  -0.125  -1.272  1.00  0.00      LIT
+ATOM     15  O   NMA     2      -2.296   0.370   0.000  1.00  0.00      NMA
+ATOM     16  C   NMA     2      -3.588   0.263   0.000  1.00  0.00      NMA
+ATOM     17  CL  NMA     2      -4.258  -1.084   0.000  1.00  0.00      NMA
+ATOM     18  HL1 NMA     2      -3.504  -1.877   0.000  1.00  0.00      NMA
+ATOM     19  HL2 NMA     2      -4.898  -1.192  -0.889  1.00  0.00      NMA
+ATOM     20  HL3 NMA     2      -4.898  -1.192   0.889  1.00  0.00      NMA
+ATOM     21  N   NMA     2      -4.336   1.350   0.000  1.00  0.00      NMA
+ATOM     22  H   NMA     2      -5.345   1.218   0.000  1.00  0.00      NMA
+ATOM     23  CC  NMA     2      -3.806   2.721   0.000  1.00  0.00      NMA
+ATOM     24  HC1 NMA     2      -3.200   2.889  -0.899  1.00  0.00      NMA
+ATOM     25  HC2 NMA     2      -3.200   2.889   0.899  1.00  0.00      NMA
+ATOM     26  HC3 NMA     2      -4.653   3.413   0.000  1.00  0.00      NMA
+TER      28      NMA     2
+END

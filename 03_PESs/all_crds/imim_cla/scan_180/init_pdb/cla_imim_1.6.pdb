@@ -1,0 +1,15 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  CG  IMIM    1      -1.387   0.502   0.000  1.00  0.00      IMIM
+ATOM      2  HG  IMIM    1      -2.207  -0.210   0.000  1.00  0.00      IMIM
+ATOM      3  CD2 IMIM    1      -1.387   1.885   0.000  1.00  0.00      IMIM
+ATOM      4  HD2 IMIM    1      -2.207   2.598   0.000  1.00  0.00      IMIM
+ATOM      5  ND1 IMIM    1      -0.060   0.115   0.000  1.00  0.00      IMIM
+ATOM      6  HD1 IMIM    1       0.275  -0.847   0.000  1.00  0.00      IMIM
+ATOM      7  NE2 IMIM    1      -0.060   2.273   0.000  1.00  0.00      IMIM
+ATOM      8  HE2 IMIM    1       0.275   3.234   0.000  1.00  0.00      IMIM
+ATOM      9  CE1 IMIM    1       0.745   1.194   0.000  1.00  0.00      IMIM
+ATOM     10  HE1 IMIM    1       1.831   1.194   0.000  1.00  0.00      IMIM
+ATOM     11  CLA CLA     1       0.803  -2.357   0.000  1.00  0.00      CLA
+TER      13      CLA     1
+END

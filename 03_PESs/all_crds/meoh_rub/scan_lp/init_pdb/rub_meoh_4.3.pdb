@@ -1,0 +1,11 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  C1  MEOH    1       0.044   2.311  -2.934  1.00  0.00      MEOH
+ATOM      2  O1  MEOH    1       0.044   0.876  -2.934  1.00  0.00      MEOH
+ATOM      3  HO1 MEOH    1       0.963   0.580  -2.934  1.00  0.00      MEOH
+ATOM      4  H1A MEOH    1      -1.009   2.619  -2.934  1.00  0.00      MEOH
+ATOM      5  H1B MEOH    1       0.533   2.722  -2.034  1.00  0.00      MEOH
+ATOM      6  H1C MEOH    1       0.533   2.722  -3.833  1.00  0.00      MEOH
+ATOM      7  RUB RUB     1      -0.027  -0.594   1.106  1.00  0.00      RUB
+TER       9      RUB     1
+END

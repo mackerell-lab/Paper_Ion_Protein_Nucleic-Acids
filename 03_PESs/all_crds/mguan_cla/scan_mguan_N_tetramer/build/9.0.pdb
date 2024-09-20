@@ -1,0 +1,32 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  C   MGUAN   1       2.834  -4.245   0.000  1.00  0.00      MGUAN
+ATOM      2  N1  MGUAN   1       3.428  -3.054   0.000  1.00  0.00      MGUAN
+ATOM      3  H11 MGUAN   1       2.817  -2.228   0.000  1.00  0.00      MGUAN
+ATOM      4  H12 MGUAN   1       4.431  -2.961   0.000  1.00  0.00      MGUAN
+ATOM      5  N2  MGUAN   1       1.508  -4.300   0.000  1.00  0.00      MGUAN
+ATOM      6  H21 MGUAN   1       1.006  -3.402   0.000  1.00  0.00      MGUAN
+ATOM      7  H22 MGUAN   1       1.010  -5.175   0.000  1.00  0.00      MGUAN
+ATOM      8  N3  MGUAN   1       3.568  -5.388   0.000  1.00  0.00      MGUAN
+ATOM      9  H31 MGUAN   1       4.573  -5.301   0.000  1.00  0.00      MGUAN
+ATOM     10  C2  MGUAN   1       2.963  -6.709   0.000  1.00  0.00      MGUAN
+ATOM     11  HC1 MGUAN   1       3.765  -7.455   0.000  1.00  0.00      MGUAN
+ATOM     12  HC2 MGUAN   1       2.347  -6.865   0.900  1.00  0.00      MGUAN
+ATOM     13  HC3 MGUAN   1       2.347  -6.865  -0.900  1.00  0.00      MGUAN
+ATOM     14  CLA CLA     1       1.113  -1.667   1.757  1.00  0.00      CLA
+ATOM     15  CLA CLA     2       1.113  -1.667  -1.757  1.00  0.00      CLA
+ATOM     16  C   MGUAN   2      -3.885   5.818   0.000  1.00  0.00      MGUAN
+ATOM     17  N1  MGUAN   2      -4.478   4.627   0.000  1.00  0.00      MGUAN
+ATOM     18  H11 MGUAN   2      -3.868   3.802   0.000  1.00  0.00      MGUAN
+ATOM     19  H12 MGUAN   2      -5.482   4.535   0.000  1.00  0.00      MGUAN
+ATOM     20  N2  MGUAN   2      -2.558   5.874   0.000  1.00  0.00      MGUAN
+ATOM     21  H21 MGUAN   2      -2.057   4.976   0.000  1.00  0.00      MGUAN
+ATOM     22  H22 MGUAN   2      -2.060   6.749   0.000  1.00  0.00      MGUAN
+ATOM     23  N3  MGUAN   2      -4.619   6.961   0.000  1.00  0.00      MGUAN
+ATOM     24  H31 MGUAN   2      -5.624   6.875   0.000  1.00  0.00      MGUAN
+ATOM     25  C2  MGUAN   2      -4.013   8.283   0.000  1.00  0.00      MGUAN
+ATOM     26  HC1 MGUAN   2      -4.816   9.029   0.000  1.00  0.00      MGUAN
+ATOM     27  HC2 MGUAN   2      -3.398   8.439  -0.900  1.00  0.00      MGUAN
+ATOM     28  HC3 MGUAN   2      -3.398   8.439   0.900  1.00  0.00      MGUAN
+TER      30      MGUAN     2
+END

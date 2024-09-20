@@ -1,0 +1,30 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  CG  BENZ    1       3.998   1.096   0.726  1.00  0.00      BENZ
+ATOM      2  HG  BENZ    1       4.558   1.858   1.273  1.00  0.00      BENZ
+ATOM      3  CD1 BENZ    1       3.998   1.096  -0.685  1.00  0.00      BENZ
+ATOM      4  HD1 BENZ    1       4.558   1.858  -1.232  1.00  0.00      BENZ
+ATOM      5  CD2 BENZ    1       3.353   0.061   1.434  1.00  0.00      BENZ
+ATOM      6  HD2 BENZ    1       3.424   0.012   2.523  1.00  0.00      BENZ
+ATOM      7  CE1 BENZ    1       3.353   0.061  -1.393  1.00  0.00      BENZ
+ATOM      8  HE1 BENZ    1       3.424   0.012  -2.483  1.00  0.00      BENZ
+ATOM      9  CE2 BENZ    1       2.737  -0.992   0.727  1.00  0.00      BENZ
+ATOM     10  HE2 BENZ    1       2.359  -1.850   1.290  1.00  0.00      BENZ
+ATOM     11  CZ  BENZ    1       2.737  -0.992  -0.686  1.00  0.00      BENZ
+ATOM     12  HZ  BENZ    1       2.359  -1.850  -1.249  1.00  0.00      BENZ
+ATOM     13  POT POT     1       1.232   1.535   0.020  1.00  0.00      POT
+ATOM     14  POT POT     2       0.237  -2.422   0.020  1.00  0.00      POT
+ATOM     15  CG  BENZ    2      -4.731  -0.653  -0.746  1.00  0.00      BENZ
+ATOM     16  HG  BENZ    2      -5.291  -1.415  -1.293  1.00  0.00      BENZ
+ATOM     17  CD1 BENZ    2      -4.731  -0.653   0.665  1.00  0.00      BENZ
+ATOM     18  HD1 BENZ    2      -5.291  -1.415   1.212  1.00  0.00      BENZ
+ATOM     19  CD2 BENZ    2      -4.086   0.382  -1.454  1.00  0.00      BENZ
+ATOM     20  HD2 BENZ    2      -4.157   0.430  -2.544  1.00  0.00      BENZ
+ATOM     21  CE1 BENZ    2      -4.086   0.382   1.373  1.00  0.00      BENZ
+ATOM     22  HE1 BENZ    2      -4.157   0.430   2.462  1.00  0.00      BENZ
+ATOM     23  CE2 BENZ    2      -3.470   1.435  -0.747  1.00  0.00      BENZ
+ATOM     24  HE2 BENZ    2      -3.092   2.293  -1.310  1.00  0.00      BENZ
+ATOM     25  CZ  BENZ    2      -3.470   1.435   0.666  1.00  0.00      BENZ
+ATOM     26  HZ  BENZ    2      -3.092   2.293   1.229  1.00  0.00      BENZ
+TER      28      BENZ     2
+END

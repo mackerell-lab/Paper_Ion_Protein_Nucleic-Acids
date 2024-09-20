@@ -1,0 +1,18 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  C   MGUAN   1       0.653  -1.487   0.000  1.00  0.00      MGUAN
+ATOM      2  N1  MGUAN   1       1.281  -0.297   0.000  1.00  0.00      MGUAN
+ATOM      3  H11 MGUAN   1       0.762   0.571   0.000  1.00  0.00      MGUAN
+ATOM      4  H12 MGUAN   1       2.291  -0.238   0.000  1.00  0.00      MGUAN
+ATOM      5  N2  MGUAN   1      -0.690  -1.528   0.000  1.00  0.00      MGUAN
+ATOM      6  H21 MGUAN   1      -1.238  -0.677   0.000  1.00  0.00      MGUAN
+ATOM      7  H22 MGUAN   1      -1.187  -2.408   0.000  1.00  0.00      MGUAN
+ATOM      8  N3  MGUAN   1       1.353  -2.625   0.000  1.00  0.00      MGUAN
+ATOM      9  H31 MGUAN   1       2.365  -2.556   0.000  1.00  0.00      MGUAN
+ATOM     10  C2  MGUAN   1       0.738  -3.958   0.000  1.00  0.00      MGUAN
+ATOM     11  HC1 MGUAN   1       1.545  -4.698   0.000  1.00  0.00      MGUAN
+ATOM     12  HC2 MGUAN   1       0.130  -4.105   0.906  1.00  0.00      MGUAN
+ATOM     13  HC3 MGUAN   1       0.130  -4.105  -0.906  1.00  0.00      MGUAN
+ATOM     14  CLA CLA     1      -1.394   4.175   0.000  1.00  0.00      CLA
+TER      16      CLA     1
+END

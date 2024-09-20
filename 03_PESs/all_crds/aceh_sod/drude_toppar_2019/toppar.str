@@ -1,0 +1,5 @@
+
+set toppar /tmp/ynan/completed_fitting/scan_crds/XXANI/XXCAT/drude_toppar_2019
+stream @toppar/toppar_drude_master_protein_2022b.str
+stream @toppar/toppar_drude_model_2022a.str
+

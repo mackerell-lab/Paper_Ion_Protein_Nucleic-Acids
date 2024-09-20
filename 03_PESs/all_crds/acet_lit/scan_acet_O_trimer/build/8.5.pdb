@@ -1,0 +1,19 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  C1  ACET    1       4.015   2.340   4.915  1.00  0.00      ACET
+ATOM      2  H1  ACET    1       4.232   1.557   5.655  1.00  0.00      ACET
+ATOM      3  H2  ACET    1       3.588   3.228   5.400  1.00  0.00      ACET
+ATOM      4  H3  ACET    1       4.964   2.627   4.435  1.00  0.00      ACET
+ATOM      5  C2  ACET    1       3.070   1.805   3.836  1.00  0.00      ACET
+ATOM      6  O1  ACET    1       2.240   2.614   3.305  1.00  0.00      ACET
+ATOM      7  O2  ACET    1       3.179   0.580   3.500  1.00  0.00      ACET
+ATOM      8  LIT LIT     1       1.697   1.003   2.153  1.00  0.00      LIT
+ATOM      9  C2  ACET    2      -3.289  -1.929  -4.076  1.00  0.00      ACET
+ATOM     10  O1  ACET    2      -3.273  -0.673  -3.856  1.00  0.00      ACET
+ATOM     11  O2  ACET    2      -2.607  -2.773  -3.408  1.00  0.00      ACET
+ATOM     12  C1  ACET    2      -4.151  -2.443  -5.231  1.00  0.00      ACET
+ATOM     13  H1  ACET    2      -4.409  -3.500  -5.082  1.00  0.00      ACET
+ATOM     14  H2  ACET    2      -3.572  -2.354  -6.164  1.00  0.00      ACET
+ATOM     15  H3  ACET    2      -5.057  -1.830  -5.335  1.00  0.00      ACET
+TER      17      ACET     2
+END

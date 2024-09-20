@@ -1,0 +1,11 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  C1  MEOH    1      -1.352   1.552   0.000  1.00  0.00      MEOH
+ATOM      2  O1  MEOH    1      -1.352   0.117   0.000  1.00  0.00      MEOH
+ATOM      3  HO1 MEOH    1      -0.433  -0.179   0.000  1.00  0.00      MEOH
+ATOM      4  H1A MEOH    1      -2.405   1.860   0.000  1.00  0.00      MEOH
+ATOM      5  H1B MEOH    1      -0.863   1.963   0.899  1.00  0.00      MEOH
+ATOM      6  H1C MEOH    1      -0.863   1.963  -0.899  1.00  0.00      MEOH
+ATOM      7  POT POT     1       1.090  -0.671   0.000  1.00  0.00      POT
+TER       9      POT     1
+END

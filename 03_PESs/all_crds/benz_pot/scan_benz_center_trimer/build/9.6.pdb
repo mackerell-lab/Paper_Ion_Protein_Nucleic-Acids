@@ -1,0 +1,29 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  CG  BENZ    1       5.407   1.114   0.705  1.00  0.00      BENZ
+ATOM      2  HG  BENZ    1       5.501   2.057   1.250  1.00  0.00      BENZ
+ATOM      3  CD1 BENZ    1       5.407   1.114  -0.705  1.00  0.00      BENZ
+ATOM      4  HD1 BENZ    1       5.501   2.057  -1.250  1.00  0.00      BENZ
+ATOM      5  CD2 BENZ    1       5.377  -0.106   1.410  1.00  0.00      BENZ
+ATOM      6  HD2 BENZ    1       5.447  -0.108   2.500  1.00  0.00      BENZ
+ATOM      7  CE1 BENZ    1       5.377  -0.106  -1.410  1.00  0.00      BENZ
+ATOM      8  HE1 BENZ    1       5.447  -0.108  -2.500  1.00  0.00      BENZ
+ATOM      9  CE2 BENZ    1       5.347  -1.327   0.705  1.00  0.00      BENZ
+ATOM     10  HE2 BENZ    1       5.393  -2.273   1.250  1.00  0.00      BENZ
+ATOM     11  CZ  BENZ    1       5.347  -1.327  -0.705  1.00  0.00      BENZ
+ATOM     12  HZ  BENZ    1       5.393  -2.273  -1.250  1.00  0.00      BENZ
+ATOM     13  POT POT     1       2.815  -0.056   0.000  1.00  0.00      POT
+ATOM     14  CG  BENZ    2      -6.813  -1.086  -0.705  1.00  0.00      BENZ
+ATOM     15  HG  BENZ    2      -6.906  -2.029  -1.250  1.00  0.00      BENZ
+ATOM     16  CD1 BENZ    2      -6.813  -1.086   0.705  1.00  0.00      BENZ
+ATOM     17  HD1 BENZ    2      -6.906  -2.029   1.250  1.00  0.00      BENZ
+ATOM     18  CD2 BENZ    2      -6.783   0.134  -1.410  1.00  0.00      BENZ
+ATOM     19  HD2 BENZ    2      -6.853   0.135  -2.500  1.00  0.00      BENZ
+ATOM     20  CE1 BENZ    2      -6.783   0.134   1.410  1.00  0.00      BENZ
+ATOM     21  HE1 BENZ    2      -6.853   0.135   2.500  1.00  0.00      BENZ
+ATOM     22  CE2 BENZ    2      -6.753   1.355  -0.705  1.00  0.00      BENZ
+ATOM     23  HE2 BENZ    2      -6.799   2.300  -1.250  1.00  0.00      BENZ
+ATOM     24  CZ  BENZ    2      -6.753   1.355   0.705  1.00  0.00      BENZ
+ATOM     25  HZ  BENZ    2      -6.799   2.300   1.250  1.00  0.00      BENZ
+TER      27      BENZ     2
+END

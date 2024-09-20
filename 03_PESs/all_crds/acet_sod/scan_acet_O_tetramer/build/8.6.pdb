@@ -1,0 +1,20 @@
+REMARK CREATED BY YNAN
+REMARK
+ATOM      1  C1  ACET    1       3.159   1.807   3.800  1.00  0.00      ACET
+ATOM      2  H1  ACET    1       3.335   1.034   4.558  1.00  0.00      ACET
+ATOM      3  H2  ACET    1       2.742   2.716   4.252  1.00  0.00      ACET
+ATOM      4  H3  ACET    1       4.129   2.066   3.348  1.00  0.00      ACET
+ATOM      5  C2  ACET    1       2.244   1.286   2.710  1.00  0.00      ACET
+ATOM      6  O1  ACET    1       1.507   2.115   2.069  1.00  0.00      ACET
+ATOM      7  O2  ACET    1       2.246   0.032   2.444  1.00  0.00      ACET
+ATOM      8  SOD SOD     1      -0.074   0.313   1.881  1.00  0.00      SOD
+ATOM      9  SOD SOD     2       1.782   0.665   0.174  1.00  0.00      SOD
+ATOM     10  C2  ACET    2      -2.914  -1.667  -3.506  1.00  0.00      ACET
+ATOM     11  O1  ACET    2      -2.906  -0.412  -3.250  1.00  0.00      ACET
+ATOM     12  O2  ACET    2      -2.177  -2.497  -2.865  1.00  0.00      ACET
+ATOM     13  C1  ACET    2      -3.823  -2.188  -4.602  1.00  0.00      ACET
+ATOM     14  H1  ACET    2      -3.996  -1.414  -5.360  1.00  0.00      ACET
+ATOM     15  H2  ACET    2      -4.791  -2.448  -4.157  1.00  0.00      ACET
+ATOM     16  H3  ACET    2      -3.403  -3.096  -5.053  1.00  0.00      ACET
+TER      18      ACET     2
+END

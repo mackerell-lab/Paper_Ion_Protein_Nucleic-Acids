@@ -1,0 +1,20 @@
+Data Summary Report
+================================================================================
+Index1  Index2  Index3                   Size  Min        Max       
+--------------------------------------------------------------------------------
+ imim      CL    180                    46      1.5000      6.0000    
+ imim      CL    perp                   46      1.5000      6.0000    
+ imim      CL    pi                     46      1.5000      6.0000    
+ imim      CL    imim_N_trimer          76      2.5000      10.0000   
+ imim      CL    imim_N_tetramer        86      1.5000      10.0000   
+ mguan     CL    h11_180                46      1.5000      6.0000    
+ mguan     CL    h12_180                46      1.5000      6.0000    
+ mguan     CL    h31_180                46      1.5000      6.0000    
+ mguan     CL    n1_perp                41      2.0000      6.0000    
+ mguan     CL    n3_perp                41      2.0000      6.0000    
+ mguan     CL    mguan_N_trimer         79      1.5000      9.3000    
+ mguan     CL    mguan_N_tetramer       86      1.5000      10.0000   
+ nc1       CL    180                    46      1.5000      6.0000    
+ nc1       CL    nc                     46      1.5000      6.0000    
+ nc1       CL    nc1_N_trimer           86      1.5000      10.0000   
+ nc1       CL    nc1_N_tetramer         86      1.5000      10.0000   

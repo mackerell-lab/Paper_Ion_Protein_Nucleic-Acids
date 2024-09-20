@@ -1,0 +1,15 @@
+# Imports
+# -------
+
+import psi4
+import numpy as np
+
+# Configurations
+# --------------
+
+psi4.set_memory('1000mb')
+psi4.core.set_num_threads(1)
+
+
+zmatrix = ''' \
+
