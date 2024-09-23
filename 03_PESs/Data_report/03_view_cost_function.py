@@ -27,7 +27,8 @@ y_order = ['lit', 'sod', 'pot', 'rub', 'ces', 'cla']
 
 # Define your custom colors
 #colors = ['#ded9f6','#c3b4e5','#a083c9','#8058ac', '#592986']  # Purple 
-colors = ['#FFFFFF','#f3def5', '#cbaad8', '#9e72c3', '#924dbf', '#4d01a6']  # Purple 
+#colors = ['#FFFFFF','#f3def5', '#cbaad8', '#9e72c3', '#924dbf', '#4d01a6']  # Purple 
+colors = ['#FFFFFF', '#FFFFFF', '#f3def5', '#cbaad8', '#9e72c3', '#924dbf', '#4d01a6']  # Purple 
 #colors = ['#f3def5', '#9e72c3','#924dbf','#7338a0' ,'#4e008c']  
 #colors = ['#f6e7f1','#e5c8e5','#b583c9','#9358ac','#782986', '#592986']  
 
