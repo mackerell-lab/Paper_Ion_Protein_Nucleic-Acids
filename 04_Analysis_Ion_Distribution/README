@@ -1,0 +1,38 @@
+#########################
+This script is developed By Y. Nan to calculate the ion distribution around protein or other large molecules.
+
+It calculates the distances between ions and each atom in the protein, then selects the shortest distance as the distance between the ion and the protein. These shortest distances are then used to generate a histogram, which represents the ion distribution around the protein. 
+
+The output file contains two columns: the first column lists the distances in Ångströms, and the second column shows the ensemble average of the number of ions in the corresponding bin.
+
+Attention!!! Output file is not radial distribution function (RDF)!!!
+
+########################
+Usage (See Example)
+########################
+
+Step1: Generate a file called ./inputs/number.xvg
+
+
+0            : protein, first index in pdb !! start from 0
+4447         : protein, last index 
+4447         : protein, number of atom
+4596         : water,   first index
+103790       : water,   last index
+5            : water,   number of atom
+4448         : cation,  first index
+4521         : cation,  last index
+2            : cation,  number of atom
+4522         : anion,   first index
+4595         : anion,   last index
+2            : anion,   number of atom
+
+
+!! Do not add comment as I did, simply put number. 
+!! Index starts from ZERO !!
+
+Step2: Run the analysis
+
+./ion_distribution Count_cation.xvg  step4_equilibration.dcd
+./ion_distribution  Count_anion.xvg  step4_equilibration.dcd
+
